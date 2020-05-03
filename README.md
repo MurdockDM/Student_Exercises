@@ -220,3 +220,53 @@ In this chapter, you are going to use the `sqlite3` package to connect to your `
 1. Display all C# exercises.
 1. Display all students with cohort name.
 1. Display all instructors with cohort name.
+
+# Part 5
+## Practice: Student Workload
+
+List the exercises assigned to each student. Display each student name and the exercises s/he has been assigned beneath their name. Use a dictionary to track each student. Remember that the key should be the student id and the value should be the entire student object.
+
+##### Example
+
+```sh
+Jessawynne Parker is working on:
+    * Stock Report
+    * Boy Bands & Vegetables
+
+Tanner Terry is working on:
+    * Solar System
+    * ChickenMonkey
+```
+
+## Practice: Assigned Exercises
+
+List all exercises assigned by each instructor. Display each instructor name and the exercises s/he has assigned beneath their name. Use a dictionary to track each instructor. Remember that the key should be the instructor id and the value should be the entire instructor object.
+
+##### Example
+
+```sh
+Joe Shepherd has assigned:
+    * Urban Planner
+
+Andy Collins has assigned:
+    * Stock Report
+    * Bag o Loot
+    * Kandy Korner
+```
+
+## Practice: Popular Exercises
+
+Output a report in your terminal that lists all students and the exerices each is assigned. Use a dictionary to track each exercise. Remember that the key should be the exercise id and the value should be the entire exercise object.
+
+#### Example
+
+```sh
+Overly Excited is being worked on by:
+  * Ryan Tanay
+  * Meg Ducharme
+  * Tanner Terry
+
+Trestlebridge is being worked on by:
+  * Steven Holmes
+  * Kirren Covey
+```
