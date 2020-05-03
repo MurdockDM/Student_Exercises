@@ -8,3 +8,7 @@ class Instructor(Person):
 
     def give_student_exercise(self, student, exercise ):
         student.new_exercise(exercise)
+
+
+    def __repr__(self):
+        return (f'{self.first_name} {self.last_name} teaches {self.cohort_name}')    

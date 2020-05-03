@@ -7,4 +7,7 @@ class Student(Person):
         self.__current_exercises = list()
 
     def new_exercise(self, exercise):
-        self.__current_exercises.append(exercise)    
+        self.__current_exercises.append(exercise)
+
+    def __repr__(self):
+        return f'{self.first_name} {self.last_name} is in {self.cohort_name}'        
